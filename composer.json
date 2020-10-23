@@ -1,0 +1,34 @@
+{
+  "name": "kamona/laravel-windmill-presets",
+  "description": "A laravel front-end scaffolding preset for windmill dashboard",
+  "authors": [
+    {
+      "name": "Kamona",
+      "email": "ak3849909@gmail.com"
+    }
+  ],
+  "keywords": [
+    "laravel",
+    "windmill-dashboard",
+    "presets",
+    "tailwindcss"
+  ],
+  "license": "MIT",
+  "require": {
+    "laravel/framework": "^7.0||^8.0",
+    "laravel/ui": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WindmillPresets\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "WindmillPresets\\WindmillPresetsServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
