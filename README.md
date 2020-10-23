@@ -47,5 +47,7 @@ We recommend installing this preset on a project that you are starting from scra
 | ------------------------------------------------ | ---------------------------------------------- |
 | ![Dashboard Light](/screens/dashboard-light.png) | ![Dashboard Dark](/screens/dashboard-dark.png) |
 
-|![Mobile Light](/screens/dashboard-moblie-light.png)|![Mobile Datk](/screens/dashboard-mobile-dark.png)|
-|![Mobile Light](/screens/login-light-moblie.png)|![Mobile Light](/screens/login-dark-moblie.png)|
+| Mobile Light                                         | Mobile Dark                                        |
+| ---------------------------------------------------- | -------------------------------------------------- |
+| ![Mobile Light](/screens/dashboard-mobile-light.png) | ![Mobile Dark](/screens/dashboard-mobile-dark.png) |
+| ![Mobile Light](/screens/login-light-mobile.png)     | ![Mobile Dark](/screens/login-dark-mobile.png)     |
