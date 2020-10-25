@@ -9,17 +9,17 @@
     {{-- CSRF Token --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Windmill Dashboard') }}</title>
+    <title>{{ config('app.name', 'Windmill Dashboard') }} | @yield('title', 'Windmill')</title>
 
     {{-- Fonts --}}
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
         rel="stylesheet" />
 
     {{-- Styles --}}
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
 
     {{-- Scripts --}}
-    <script src="{{ mix('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
     <script src="{{ asset('js/init-alpine.js') }}"></script>
 </head>
