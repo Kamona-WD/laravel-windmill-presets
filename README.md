@@ -1,7 +1,7 @@
 # Laravel Windmill Presets
 
-![License](https://img.shields.io/github/license/Kamona-WD/laravel-windmill-presets)
-![License](https://img.shields.io/github/release/Kamona-WD/laravel-windmill-presets)
+[![License](https://img.shields.io/github/license/Kamona-WD/laravel-windmill-presets)](https://github.com/Kamona-WD/laravel-windmill-presets/blob/master/LICENSE.md)
+[![License](https://img.shields.io/github/release/Kamona-WD/laravel-windmill-presets)](https://github.com/Kamona-WD/laravel-windmill-presets/releases)
 
 A Laravel 7.0+ front-end scaffolding preset for [Windmill-Dashboard](https://github.com/estevanmaito/windmill-dashboard)
 
