@@ -22,15 +22,23 @@
         <label class="block text-sm">
             <span class="text-gray-700 dark:text-gray-400">{{ __('E-Mail Address') }}</span>
             <input type="email" name="email" value="{{ $email ?? old('email') }}" required autocomplete="email" autofocus
-                class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
+                class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 @error('email') border-red-500 @enderror focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
                 placeholder="{{ __('Email') }}" />
         </label>
+        @error('email')
+        <p class="text-red-500 text-xs italic mt-2">
+            {{ $message }}
+        </p>
         <label class="block mt-4 text-sm">
             <span class="text-gray-700 dark:text-gray-400">{{ __('Password') }}</span>
             <input type="password" name="password" required autocomplete="new-password"
-                class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
+                class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 @error('password') border-red-500 @enderror focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
                 placeholder="{{ __('Password') }}" />
         </label>
+        @error('password')
+        <p class="text-red-500 text-xs italic mt-2">
+            {{ $message }}
+        </p>
         <label class="block mt-4 text-sm">
             <span class="text-gray-700 dark:text-gray-400">{{ __('Confirm Password') }}</span>
             <input type="password" name="password_confirmation" required autocomplete="new-password"

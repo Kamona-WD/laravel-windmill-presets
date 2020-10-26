@@ -9,6 +9,8 @@ A Laravel 7.0+ front-end scaffolding preset for [Windmill-Dashboard](https://git
 
 We recommend installing this preset on a project that you are starting from scratch, otherwise your project's design might break.
 
+IF you want to use [laravel/fortify](https://github.com/laravel/fortify) check this repo [kamona/fortify-windmill](https://github.com/Kamona-WD/fortify-windmill) .
+
 ## Usage
 
 1. Fresh install Laravel >= 7.0 and `cd` to your app.
@@ -22,11 +24,29 @@ We recommend installing this preset on a project that you are starting from scra
 
 ### b. For Presets with Authentication
 
-1. Use `php artisan ui windmill --auth` for the basic preset, auth route entry, and Windmill auth views in one go. (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in `routes/web.php`)
+1. Use `php artisan ui windmill --auth` for the basic preset, auth route entry, and Windmill auth views in one go. (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in `routes/web.php` and run `npm install && npm run dev` again)
 2. `npm install && npm run dev`
 3. Configure your favorite database (mysql, sqlite etc.)
 4. `php artisan migrate` to create basic user tables.
 5. `php artisan serve` (or equivalent) to run server and test preset.
+
+## Edit views
+
+Sidebar links `views/partials/sidebar/sidebar-content.blade.php`.
+
+Sidebar header `views/partials/sidebar/sidebar-header.blade.php`.
+
+Sidebar footer `views/partials/sidebar/sidebar-footer.blade.php`.
+
+Navbar right links `views/partials/navbar/navbar-links.blade.php`.
+
+Layouts `views/layouts`.
+
+Dashboard `views/home.blade.php`
+
+## Side note
+
+I know my English is horrible so please forgive me. I hope you will understand what I want to say in this read me file.
 
 ### Screenshots
 

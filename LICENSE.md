@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) Ahmed Kamel
+Copyright (c) Kamona-WD <ak3849909@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
